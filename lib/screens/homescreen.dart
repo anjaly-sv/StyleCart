@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
                   final price = product['price'];
               
                   return Padding(
-                    padding: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(12),
                     child: GestureDetector(
                       onTap: () {
                         Navigator.pushNamed(context, "DetailPage",arguments: {
